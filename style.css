@@ -1,0 +1,14 @@
+body{
+    background-color: gray;
+}
+
+nav
+{
+    background-color: #29a8ad;  
+    font-family: "Ubuntu", sans-serif; 
+}
+
+.navbar-brand
+{
+    font-weight: 600;
+}
