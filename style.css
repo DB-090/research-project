@@ -1,14 +1,75 @@
 body{
-    background-color: gray;
+    background-color: #77a2b7;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+p,
+a,
+button
+{
+    color: black;
+    font-family: "Ubuntu", sans-serif; 
+}
+
 
 nav
 {
     background-color: #29a8ad;  
-    font-family: "Ubuntu", sans-serif; 
 }
 
 .navbar-brand
 {
     font-weight: 600;
+}
+
+.heros
+{
+    margin: 1%;
+    opacity: 75%;
+    width: auto;
+}
+
+.heroinfo
+{
+    margin-top: 20px;
+    width: 80%;
+    font-weight: 400;
+}
+
+.miscrospcopehero
+{
+    width: 10%;
+    max-width: 100px;
+    position: absolute;
+    z-index: -1;
+    left: 20px;
+    margin-left: 2%;
+}
+
+.virushero
+{
+    width: 15%;
+    max-width: 175px;
+    position: absolute;
+    z-index: -1;
+    right: 30px;
+    top: 225px;
+    margin-right: 2%;
+    opacity: 80%;
+}
+
+.belowherocolumntitle
+{
+    text-align: center;
+    text-decoration:underline 3px;
+}
+
+.rounded-circle
+{
+    width: 50px;
 }
