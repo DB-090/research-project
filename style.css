@@ -10,12 +10,21 @@ h5,
 h6
 p,
 a,
-button
+button,
+li
 {
     color: black;
     font-family: "Ubuntu", sans-serif; 
+    text-decoration: none;
 }
 
+hr
+{
+    width: 90%;
+    margin: 30px auto;
+    margin-bottom: 20px;
+    border-top: 3px solid black;
+}
 
 nav
 {
@@ -72,4 +81,29 @@ nav
 .rounded-circle
 {
     width: 50px;
+}
+
+.col-sm-4txt
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline 3px;
+}
+
+li
+{
+    text-align: left;
+}
+
+.col-sm-4
+{
+    background-color: rgba(250, 235, 215, 0.498);
+}
+
+.h2prion
+{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
 }
