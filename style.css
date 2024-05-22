@@ -41,6 +41,7 @@ nav
     margin: 1%;
     opacity: 75%;
     width: auto;
+    margin-top: 80px;
 }
 
 .heroinfo
@@ -95,6 +96,17 @@ li
     text-align: left;
 }
 
+li li:hover
+{
+    color: rgb(31, 121, 177);
+    text-decoration: underline;
+}
+ul ul:hover
+{
+    color: rgb(31, 121, 177);
+    text-decoration: underline;
+}
+
 .col-sm-4
 {
     background-color: rgba(250, 235, 215, 0.498);
@@ -106,4 +118,40 @@ li
     text-align: center;
     font-size: 100px;
     font-weight: 900;
+}
+
+#navbar
+{
+    position: fixed;
+    opacity: 100%;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-text
+{
+    color: white;
+}
+
+.h4prion
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+table, 
+th, 
+td 
+{
+    border: 1px solid black;
+    margin: 1%;
+    border-collapse: collapse;
+}
+
+.table
+{
+    width: 90%;
+    margin: auto;
 }

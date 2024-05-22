@@ -30,32 +30,41 @@
 
 
 
-   <body>
+   <body data-bs-spy="scroll" data-bs-target="#navbar-example">
      <!-- NAVIGATION -->
-     <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
+    
+    
+    <div id="navbar">
+        <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark px-3">
             <a class="navbar-brand" href="index.html">
                 <img src="fabiicon.png" alt="" width="35" height="35">
                 Microbe Mission
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>    
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="#Prions">Prions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="#Virus">Viruses</a>
+          </li>
+          <li class="nav-item dropdown nav-text">
+            <a class="nav-link dropdown-toggle nav-text" data-bs-toggle="dropdown" href="#Bacteria" role="button" aria-expanded="false">Bacteria</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Growth-curves">Growth</a></li>
+              <li><a class="dropdown-item" href="#Structure">Structure</a></li>
+              <li><a class="dropdown-item" href="#Gram-staining">Staining</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="#Archea">Archea</a>
+          </li>
+        </ul>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+      </div>
+      </div>
+      
+      <div class="nvspace"></div>
 
      <!-- HERO SECTION-->
      <div class="heros px-4 py-5 mb-5 text-center bg-light">
@@ -84,8 +93,8 @@
                     <h6 style="font-weight: bolder;">Found In Here</h6>
                     <p>
                         <ol>
-                            <li>Prions</li>
-                            <li>Viruses</li>
+                            <li><a href="#Prions">Prions</a></li>
+                            <li><a href="#Virus">Viruses</a></li>
                             <li>Bacteria
                                 <ul>
                                     <li>Growth curves</li>
@@ -131,11 +140,73 @@
             </div>
         </div>
     </div>
-<hr>
 
-    <div>
+
+<hr>
+<div id="Prions">
     <h2 class="h2prion">PRIONS</h2>
+    <h4 class="h4prion">Misfolded, pathogenic protein. It can induce other, healthy proteins to misfold as well.</h4>
+    <div class="table">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" style="width: 5%;"></th>
+                <th scope="col" style="width: 45%;">α-PrP</th>
+                <th scope="col" style="width: 45%;">α-Synuclein</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Found</th>
+                <td>Encoded by PRNP/CD230(cluster differentiation 230) on p arm of chromosome 20
+                </td>
+                <td>  It is very common in the brain(mainly in axon terminals of presynaptic neurons), but smaller amounts can be found in other organs around the body. (SNCA gene(NACP in humans))
+                </td>
+              </tr>
+                <th scope="row">Job</th>
+                <td>Jacob</td>
+                <td>neural protein that regulates changes in protein level, which in turn causes neurotransmitter release.</td>
+              </tr>
+              <tr>
+                <td>hello</td>
+                <td>Larry the Bird</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
 </div>
 
+
+<hr>
+<div id="Virus">
+    <h2 class="h2prion">VIRUSES</h2>
+</div>
+
+
+<hr>
+<div id="Bacteria">
+    <h2 class="h2prion">BACTERIA</h2>
+    <div id="Growth-curves">
+        <h3>Growth curves</h3>
+    </div>
+    <div id="Structure">
+        <h3>Structure</h3>
+    </div>
+    <div id="Gram-staining">
+        <h3>Gram-staining</h3>
+    </div>
+</div>
+
+
+<hr>
+<div id="Archea">
+    <h2 class="h2prion">ARCHEA</h2>
+</div>
+
+
+
+
+</div>
    </body>
 </html>
