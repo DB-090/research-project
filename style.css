@@ -1,5 +1,5 @@
 body{
-    background-color: #77a2b7;
+    background-color: #478caf;
 }
 
 h1,
@@ -30,6 +30,8 @@ nav
 {
     background-color: #29a8ad;  
 }
+
+
 
 .navbar-brand
 {
@@ -73,11 +75,7 @@ nav
     opacity: 80%;
 }
 
-.belowherocolumntitle
-{
-    text-align: center;
-    text-decoration:underline 3px;
-}
+
 
 .rounded-circle
 {
@@ -154,4 +152,64 @@ td
 {
     width: 90%;
     margin: auto;
+}
+
+.col-sm-6
+{
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgba(250, 235, 215, 0.498);
+    margin-left: -1px;
+}
+
+
+.px-5 h6
+{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#Prions h4, 
+#Prions h5
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(21, 41, 62);
+}
+
+#Prions h5,
+#Prions p,
+#Prions li
+{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(21, 41, 62);
+}
+
+.h2prion
+{
+    font-size: 80px;
+}
+
+.h4prion
+{
+    text-align: center;
+}
+
+.belowherocolumntitle
+{
+    text-align: center;
+    text-decoration:underline 3px;
+    font-size: 30px;
+}
+
+#Gram-staining
+{
+    text-align: center;
+}
+
+iframe
+{
+    width: 90%;
 }

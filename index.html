@@ -74,7 +74,7 @@
           <p class="lead mb-4">That's the main question that the students participating in one of Science Olympiad™'s event, Microbe Mission, aim to answer. Through teamwork, participation in this event, as well as research, information was obtained of what goes on on molecular level. This website was inspired by this event and its aim is to condence and provide that information to any students and people intrested.</p>
           
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+            <a href="#Prions"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Go!</button></a>
           </div>
         <img src="virus.png" class="virushero">
         </div>
@@ -97,12 +97,12 @@
                             <li><a href="#Virus">Viruses</a></li>
                             <li>Bacteria
                                 <ul>
-                                    <li>Growth curves</li>
-                                    <li>Structure</li>
-                                    <li>Gram-staining</li>
+                                    <a href="#Growth-curves"><li>Growth curves</li></a>
+                                    <a href="#Structure"><li>Structure</li></a>
+                                    <a href="#Gram-staining"><li>Gram-staining</li></a>
                                 </ul>
                             </li>
-                            <li>Archea types</li>
+                            <a href="#Archea"><li>Archea types</li></a>
                         </ol>
                     </p>
                     <a href="https://www.soinc.org/microbe-mission-b" target="_blank">
@@ -144,37 +144,53 @@
 
 <hr>
 <div id="Prions">
-    <h2 class="h2prion">PRIONS</h2>
+    <h2  class="h2prion">PRIONS</h2>
     <h4 class="h4prion">Misfolded, pathogenic protein. It can induce other, healthy proteins to misfold as well.</h4>
-    <div class="table">
-        <table class="table">
-            <thead>
-              <tr>
-                <th scope="col" style="width: 5%;"></th>
-                <th scope="col" style="width: 45%;">α-PrP</th>
-                <th scope="col" style="width: 45%;">α-Synuclein</th>
-                
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Found</th>
-                <td>Encoded by PRNP/CD230(cluster differentiation 230) on p arm of chromosome 20
-                </td>
-                <td>  It is very common in the brain(mainly in axon terminals of presynaptic neurons), but smaller amounts can be found in other organs around the body. (SNCA gene(NACP in humans))
-                </td>
-              </tr>
-                <th scope="row">Job</th>
-                <td>Jacob</td>
-                <td>neural protein that regulates changes in protein level, which in turn causes neurotransmitter release.</td>
-              </tr>
-              <tr>
-                <td>hello</td>
-                <td>Larry the Bird</td>
-              </tr>
-            </tbody>
-          </table>
+
+    <div class="container text-center">
+
+      <div class="row">
+          <div class="col-sm-6 px-5 my-3" style="opacity: 90%;">
+            <h3>Prion: PrP</h3>
+            <hr style="margin-top: 5px;">
+            <h6><br><strong>Found</strong>: encoded by PRNP/CD230(cluster differentiation 230) on p arm of chromosome 20 <br><br></h6>
+            <h6><strong>Role</strong>: possibly involved in the transport of ionic copper to cells from the surrounding environment,. but not much is known</h6>
+          </div>
+          <div class="col-sm-6 px-5 my-3">
+            <h3>Prion: α-Synuclein</h3>
+            <hr style="margin-top: 5px;">
+            <h6><strong>Found</strong>: very common in the brain(mainly in axon terminals of presynaptic neurons), but smaller amounts can be found in other organs around the body (SNCA gene(NACP in humans)</h6>
+            <h6><strong>Role</strong>: neural protein that regulates changes in protein level, which in turn causes neurotransmitter release</h6>
+          </div>
+        
+      </div>
     </div>
+
+  <h5><strong>Pathogenic state</strong>: </h5>
+  <p> Insoluble compact aggregates (amyloid fibrils) and deposits of these(amyloid plaques) accumulate in the central nervous system, which results in disruption in the central nervous system; both function and structure. This is mainly nervous tissue undergoing vacuolation (nervous system attempt to compartmentalize PrPSc inside vacuoles leading to enlarged vacuoles that appear like hole in tissue analysis)</p> 
+
+  <h5><strong>Disease</strong>:</h5>
+  <p>Prions in humans is a dangerous disease, as it could be dormant for a while, and when symptoms of prion disease show up, it’s already too late. It’s a rapidly progressive disease that could cause things such as neural loss or failure to induce inflammatory response. <br>
+    &nbsp;&nbsp;Prion disease - transmissible spongiform encephalopathy (TSE). Disease caused include:
+    <ul style="margin-top: -15px; margin-left: 2%;">
+      <li>Genetic Creutzfeldt–Jakob disease (glutamic acid-200 replaced by lysine while valine is present at amino acid 129)</li>
+      <li>Gerstmann–Sträussler–Scheinker disease(usually a change in codon 102 from proline to leucine)</li>
+      <li>Fatal familial insomnia(aspartic acid-178 is replaced by asparagine while methionine is present at amino acid 129)</li>
+      <li>Kuru(homozygous for the 129 Met allele of the gene (PRNP) encoding for prion protein (PrP))</li>
+    </ul>
+    </p>
+
+    <h5><strong>Transmission</strong>:</h5>
+  <p>Can be acquired(exposure to prions via medical procedure or ingestion of prion-containing material including spontaneous mutation), familial(genetic mutation), sporadic(arising from spontaneous mutation)
+    <br>
+    &nbsp;&nbsp;PExternal sources of PrPSc:
+    <ul style="margin-top: -15px; margin-left: 2%;">
+      <li>Scrapie (fatal neurodegenerative disease in sheep, not transmissible to humans)</li>
+      <li>Bovine spongiform encephalopathy(mad-cow disease) (fatal neurodegenerative disease in cows, can be transmitted to humans by ingestion of brain, spinal, or digestive tract tissue of an infected cow)</li>
+      <li>Kuru (TSE in humans) transmitted via funerary cannibalism</li>
+    </ul>
+    </p>
+
 </div>
 
 
@@ -194,7 +210,29 @@
         <h3>Structure</h3>
     </div>
     <div id="Gram-staining">
-        <h3>Gram-staining</h3>
+        <div class="bg-aquamarine py-5" id="image">
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-sm-8">
+                <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/McINCWMbseI?si=NnmHb6eXWEADWWfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+              </div>
+              <div class="col-sm-4 pt-5">
+                <h2 class="fw-bold">Gram-staining</h2>
+                <p>
+                  Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+                  Suspendisse consectetur fringilla ex, eu porta tellus mollis sed.
+                  Sed a congue urna. Mauris eget lacus quam.
+                </p>
+                <p>
+                  Sed augue risus, sollicitudin sollicitudin eleifend posuere,
+                  congue mattis eros. Proin mollis est dolor, sed pulvinar enim
+                  facilisis eget.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
     </div>
 </div>
 
@@ -204,7 +242,7 @@
     <h2 class="h2prion">ARCHEA</h2>
 </div>
 
-
+<hr>
 
 
 </div>
