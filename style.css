@@ -297,3 +297,10 @@ iframe
 {
     background-color: rgba(250, 235, 215, 0.198);
 }
+
+.nav-link:focus,
+.nav-link:hover
+{
+    background-color: rgb(36, 141, 193);
+    color: white;
+}
